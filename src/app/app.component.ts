@@ -22,7 +22,7 @@ ngOnInit() {
 
 getWeather(cityName: string) {
   this.weatherService
-    .sendGetRequest(cityName)
+    .sendGetRequest()
     .subscribe(
       res => {
         console.log(res,'soy la repuesta de res');

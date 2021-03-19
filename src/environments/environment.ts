@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlCity:"http://localhost:3000/city/"
+  urlCity:"http://localhost:3000/open"
 };
 
 /*

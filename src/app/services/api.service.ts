@@ -14,8 +14,8 @@ export class WeatherService {
 
   constructor(private httpClient: HttpClient) {}
 
-  public sendGetRequest(cityName){
-    return  this.httpClient.get(this.REST_API_SERVER+ cityName)
+  public sendGetRequest(){
+    return  this.httpClient.get(this.REST_API_SERVER)
     .pipe(
 
       // Response with 200
